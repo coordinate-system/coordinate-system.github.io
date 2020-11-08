@@ -1,3 +1,36 @@
-html{
+@font-face {
+    font-family: chenjing;
+    src: url("font/chenjing.ttf");
+}
+body{
     background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+}
+
+.hello{
+    text-align: center;
+    font-family: chenjing;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(247, 245, 245);
+    background: #2bc0e4;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgb(43, 192, 228), rgb(234, 236, 198));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(43, 192, 228), rgb(234, 236, 198)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    width: 55%;
+    height: 35%;
+    border: 2%;
+    border: white;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
+.b1{
+    width:450px;
+    height:60px;
+    background: #0084ff;
+    outline: none;
+    border-width: 0;
+    color: rgb(255, 254, 254);
+    font-family: chenjing;
+    font-size: 40px;
+    border-radius: 10px;
 }
