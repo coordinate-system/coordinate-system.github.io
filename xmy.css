@@ -3,7 +3,7 @@
     src: url("font/chenjing.ttf");
 }
 body{
-    background: url(bg.jpg) no-repeat top center;
+    background: url("http://fly.atlinker.cn/api/bing/1366-cn.php") no-repeat top center;
 		background-size: cover;
 		background-attachment: fixed;
 		width: 100%;
