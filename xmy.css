@@ -4,7 +4,7 @@
 }
 body{
     background: url("http://fly.atlinker.cn/api/bing/1366-cn.php") no-repeat top center;
-                transform:rotateY(180deg);
+               
 		background-size: cover;
 		background-attachment: fixed;
 		width: 100%;
