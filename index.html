@@ -12,9 +12,20 @@
     <body>
         <div class="top">
 
-        <img  class = "top_image" src="http://q1.qlogo.cn/g?b=qq&nk=2728631904&s=100" alt="呃...曾经这里有一个头像"> 
-        <p class="top1">Nancy Lynn</p>
-
+        <p class="top1"><img  class = "top_image" src="http://q1.qlogo.cn/g?b=qq&nk=2728631904&s=100" alt="呃...曾经这里有一个头像"> Nancy Lynn</p>
+        </div>
+        <div class="bottom">
+        <span id="hitokoto"><p id ="hitokoto_text">一言正在加载....</p></span>
+        <script>
+            fetch('https://v1.hitokoto.cn/?c=f&c=k&c=i&c=d&c=j&c=e&c=g')
+              .then(response => response.json())
+              .then(data => {
+                const hitokoto = document.getElementById('hitokoto_text')
+                hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                hitokoto.innerText = data.hitokoto
+              })
+              .catch(console.error)
+          </script>        
         </div>
     </body>
 </html>

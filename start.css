@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(https://api.dujin.org/bing/m.php) no-repeat top center ;
+    background: url(https://api.dujin.org/bing/m.php) no-repeat top center;
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -13,8 +13,7 @@ body{
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
-	
+    bottom: 0;
 
 }
 
