@@ -2,8 +2,11 @@
     font-family: chenjing;
     src: url("font/chenjing.ttf");
 }
+html{
+    background-color:#66ccff;
+}
 .top{
-    background-color:#0084ff;
+    background-color:rgba(223, 221, 221, 0.3);
     width: 350px;
     height: 80px;
     border: 0px;
@@ -39,13 +42,12 @@
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-    height: 150px;
+    height: 140px;
     text-align: center;
     vertical-align: middle;
-    background-color: #0084ff;
+    background-color: #66ccff;
     bottom: 0;
     border: 0px solid ;
-    border-radius: 50px;
     position: fixed;
 }
 
