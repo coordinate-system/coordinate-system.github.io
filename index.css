@@ -1,9 +1,13 @@
 @font-face {
+    font-family: xmy;
+    src: url("font/xmy.ttf");
+}
+@font-face {
     font-family: chenjing;
     src: url("font/chenjing.ttf");
 }
 html{
-    background-color:#66ccff;
+    background-color:#eeb7f3;
 }
 .top{
     background-color:rgba(223, 221, 221, 0.3);
@@ -52,7 +56,7 @@ html{
 }
 
 #hitokoto_text{
-    font: 50px "chenjing";
+    font: 50px "xmy";
 
 }
 
