@@ -49,14 +49,15 @@ html{
     height: 140px;
     text-align: center;
     vertical-align: middle;
-    background-color: #66ccff;
+    background-color:#eeb7f3;
+    ;
     bottom: 0;
     border: 0px solid ;
     position: fixed;
 }
 
 #hitokoto_text{
-    font: 50px "xmy";
+    font: 50px "chenjing";
 
 }
 
